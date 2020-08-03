@@ -1,7 +1,8 @@
 Package: ibthemes
 Title: Isabella Benabaye's Personal ggplot2 Themes
 Version: 0.0.0.9000
-Author: Isabella Benabaye <isabellabenabaye@gmail.com> 
+Author: Isabella Benabaye
+Maintainer: Isabella Benabaye <isabellabenabaye@gmail.com> 
 Description: Isabella Benabaye's Personal ggplot2 Themes
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -11,4 +12,7 @@ RoxygenNote: 7.1.1
 Suggests: 
     testthat
 Imports: 
-    magrittr
+    magrittr,
+    ggplot2,
+    extrafont,
+    ggtext
