@@ -51,6 +51,7 @@ theme_ib <- function(title_family = "IBM Plex Sans",
       axis.text = element_text(size = base_size * 1.2),
       axis.title = element_text(size = base_size * 1.6,
                                 hjust = 1),
+      axis.line = element_line(color = line_color),
 
       legend.title = element_text(size = base_size * 1.3),
       legend.text = element_text(size = base_size * 1.1)
@@ -78,6 +79,7 @@ theme_ib <- function(title_family = "IBM Plex Sans",
       axis.text = element_text(size = base_size * 1.2),
       axis.title = ggtext::element_markdown(size = base_size * 1.6,
                                 hjust = 1),
+      axis.line = element_line(color = line_color),
 
       legend.title = ggtext::element_markdown(size = base_size * 1.3),
       legend.text = element_text(size = base_size * 1.1)
@@ -98,7 +100,8 @@ theme_ib <- function(title_family = "IBM Plex Sans",
       plot.background = element_rect(fill = bg_color,
                                      color = bg_color),
 
-      axis.title = ggtext::element_markdown(hjust = 1)
+      axis.title = ggtext::element_markdown(hjust = 1),
+      axis.line = element_line(color = line_color)
     )
   } else {
     ggplot2::theme_minimal(base_size = base_size) +
@@ -116,7 +119,9 @@ theme_ib <- function(title_family = "IBM Plex Sans",
       plot.background = element_rect(fill = bg_color,
                                      color = bg_color),
 
-      axis.title = element_text(hjust = 1)
+      axis.title = element_text(hjust = 1),
+      axis.line = element_line(color = line_color)
       )
   }
 }
+
