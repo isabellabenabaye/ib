@@ -1,9 +1,9 @@
 Package: ib
-Title: Isabella Benabaye's Personal ggplot2 Themes
+Title: Isabella Benabaye's Personal R Package
 Version: 0.0.0.9000
 Author: Isabella Benabaye
 Maintainer: Isabella Benabaye <isabellabenabaye@gmail.com> 
-Description: Isabella Benabaye's Personal ggplot2 Themes
+Description: Isabella Benabaye's Personal R Package
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
