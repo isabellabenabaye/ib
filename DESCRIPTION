@@ -14,5 +14,4 @@ Suggests:
 Imports: 
     magrittr,
     ggplot2,
-    extrafont,
     ggtext
