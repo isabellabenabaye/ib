@@ -24,12 +24,12 @@ scale_x_d_ib <- function(...) {
 #' @export
 
 scale_y_c_ib <- function(...) {
-  ggplot2::scale_x_continuous(expand = expansion(mult = c(0, .05)), ...)
+  ggplot2::scale_y_continuous(expand = expansion(mult = c(0, .05)), ...)
 }
 
 #' @rdname scale_defaults_ib
 #' @export
 
 scale_y_d_ib <- function(...) {
-  ggplot2::scale_x_discrete(expand = expansion(mult = c(0, .05)), ...)
+  ggplot2::scale_y_discrete(expand = expansion(mult = c(0, .05)), ...)
 }
