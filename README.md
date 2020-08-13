@@ -34,7 +34,7 @@ plots)
 and the top end of the plot is extended by 5% (eg. for use with bar
 plots)
 
-### Exmaples
+### Examples
 
 The following plots were taken from [Allison
 Horst](https://twitter.com/allison_horst)’s `palmerpenguins`
